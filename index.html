@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media not screen and (min-width:00px) and (max-width:400px){
+            h1{
+                color: red;
+                font-size: 100px;
+            }
+            img{
+                border-radius: 60%;
+            }
+            @media not screen and (min-width:200px) and (max-width:400px){
+            div{
+                height: 200px;
+                width: 500px;
+                background-color: aqua;
+                border: 2px solid black;
+            }
+            td{
+                padding: 15px;
+                border-collapse: collapse;
+            border: 1px solid black;
+            box-shadow: 5px 5px 10px red ;
+            box-shadow: inset 5px 5px 10px;
+            border-radius: 10%;
+            }
+        } 
+        }
+        .btn{
+            height: 20px;
+            width: 200px;
+        }
+        .cd{
+           
+            /* column-span: 10px ; */
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+   
+    <div>
+        <img src="../ASSETS/bgmi.jpeg">
+    </div>
+    <div class="cd">
+        <table>
+            <tr>
+                <td>
+                    data1
+                </td>
+                <td>
+                    data 3
+                </td>
+            </tr>
+            <tr>
+                <td>data 2</td>
+            </tr>
+        </table>
+    </div>
+    <div class="cd2">
+        <form>
+            <label for="btn"></label>
+            <input type="text" class="btn" name="btn" id="btn" value="push">
+        </form>
+
+    </div>
+</body>
+</html>
